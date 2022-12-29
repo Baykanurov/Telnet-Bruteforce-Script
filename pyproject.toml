@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "bruteforce-telnet-script"
+version = "1.0.0"
+description = "Скрипт для подбора логина и пароля по протоколу telnet."
+authors = ["Владимир Ефимов <vefimov@rvision.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
